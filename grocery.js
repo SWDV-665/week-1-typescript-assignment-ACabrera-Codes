@@ -13,6 +13,6 @@ function groceryList(groceries) {
 var almondMilk = new Grocery ("Almond Milk", "1", "$2.49 \n");
 var dragonFruit = new Grocery ("Dragon Fruit", "3", "$5.99 \n")
 var chickenSausage = new Grocery ("Chicken Sausage", "2", "$3.99 \n")
-var redPotatoes = new Grocery ("Red Potatoes", "4", "$3.16 \n")
+var redPotatoe = new Grocery ("Red Potatoe", "4", "$3.16 \n")
 
-document.body.textContent = groceryList(almondMilk) + groceryList(dragonFruit) + groceryList(chickenSausage) + groceryList(redPotatoes);
+document.body.textContent = groceryList(almondMilk) + groceryList(dragonFruit) + groceryList(chickenSausage) + groceryList(redPotatoe);
