@@ -18,6 +18,6 @@ function groceryList(groceries: listItem) {
 let almondMilk = new Grocery ("Almond Milk", "1", "$2.49")
 let dragonFruit = new Grocery ("Dragon Fruit", "3", "$5.99")
 let chickenSausage = new Grocery ("Chicken Sausage", "2", "$3.99")
-let redPotatoes = new Grocery ("Red Potatoes", "4", "$3.16")
+let redPotatoe = new Grocery ("Red Potatoe", "4", "$3.16")
 
-document.body.textContent = groceryList(almondMilk) + groceryList(dragonFruit) + groceryList(chickenSausage) + groceryList(redPotatoes)
+document.body.textContent = groceryList(almondMilk) + groceryList(dragonFruit) + groceryList(chickenSausage) + groceryList(redPotatoe)
